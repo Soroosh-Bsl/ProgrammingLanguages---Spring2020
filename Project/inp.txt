@@ -1,0 +1,10 @@
+a = [0, 0, 0, 0];
+f = func(a){
+    ff = func(b){
+        return b + 1
+    };
+    return ff
+};
+b = f(a);
+b = b(a);
+return b
